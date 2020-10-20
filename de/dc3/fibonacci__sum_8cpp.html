@@ -173,9 +173,9 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int the sum of sequence </dd></dl>
-<div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                            {</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">return</span> (<a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>(m+2) - <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>(n+1));</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                                {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keywordflow">return</span> (<a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>(m+2) - <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>(n+1));</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        }</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -249,22 +249,22 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>resultant matrix </dd></dl>
-<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                                                                                                    {</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;int&gt;</a> &gt; <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>(2,<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a>(2));</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="comment">// multiplying matrices</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0;i&lt;2;i++) {</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j=0;j&lt;2;j++) {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>[i][j]=0;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                <span class="keywordflow">for</span>(<span class="keywordtype">int</span> k=0;k&lt;2;k++) {</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                    <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>[i][j]=(<a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>[i][j]+(T[i][k]*A[k][j]));</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                }</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            }</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        }</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                                                                                                        {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;int&gt;</a> &gt; <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>(2,<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a>(2));</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <span class="comment">// multiplying matrices</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0;i&lt;2;i++) {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j=0;j&lt;2;j++) {</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                    <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>[i][j]=0;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> k=0;k&lt;2;k++) {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                        <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>[i][j]=(<a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>[i][j]+(T[i][k]*A[k][j]));</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                    }</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                }</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            }</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -307,20 +307,20 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>resultant matrix </dd></dl>
-<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                                                                           {</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;int&gt;</a> &gt; A{{1,1},{1,0}};</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">if</span>(ex == 0 || ex == 1) {</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <span class="keywordflow">return</span> T;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        }</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        </div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        T = <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#a28ce3a3d9548acbfe92e371666e7456c">power</a>(T,ex/2);</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        T = <a class="code" href="../../d8/d77/namespacemachine__learning.html#a7491744dcfc8844338d55065d0cd0c79">multiply</a>(T,T);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">if</span>(ex&amp;1) {</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            T = <a class="code" href="../../d8/d77/namespacemachine__learning.html#a7491744dcfc8844338d55065d0cd0c79">multiply</a>(T,A);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        }</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">return</span> T;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                                                                               {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;int&gt;</a>&gt; A{{1,1},{1,0}};</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keywordflow">if</span>(ex == 0 || ex == 1) {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                <span class="keywordflow">return</span> T;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            }</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            T = <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#a28ce3a3d9548acbfe92e371666e7456c">power</a>(T,ex/2);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            T = <a class="code" href="../../d8/d77/namespacemachine__learning.html#a7491744dcfc8844338d55065d0cd0c79">multiply</a>(T,T);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            <span class="keywordflow">if</span>(ex&amp;1) {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                T = <a class="code" href="../../d8/d77/namespacemachine__learning.html#a7491744dcfc8844338d55065d0cd0c79">multiply</a>(T,A);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            }</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keywordflow">return</span> T;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        }</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -352,13 +352,13 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int ans, the sum of sequence </dd></dl>
-<div class="fragment"><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                      {</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;int&gt;</a> &gt; T{{1,1},{1,0}};</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        T = <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#a28ce3a3d9548acbfe92e371666e7456c">power</a>(T,n);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa">ans</a>=T[0][1];</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa">ans</a> = (<a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa">ans</a> - 1);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa">ans</a>;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                          {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;int&gt;</a> &gt; T{{1,1},{1,0}};</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            T = <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#a28ce3a3d9548acbfe92e371666e7456c">power</a>(T,n);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="keywordtype">int</span> <a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa">ans</a>=T[0][1];</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa">ans</a> = (<a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa">ans</a> - 1);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa">ans</a>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        }</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -393,30 +393,30 @@ Here is the call graph for this function:</div>
 <p>Function for testing fiboSum function. test cases and assert statement. </p><dl class="section return"><dt>Returns</dt><dd><code>void</code> </dd></dl>
 <div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                   {</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordtype">int</span> n = 0, m = 3;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#a34b8683a2b429de5cce57e6d733ec817">test_1</a> = math::fiboSum(n,m);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#a34b8683a2b429de5cce57e6d733ec817">test_1</a> = <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#a7cac8fec10aaac6a8c6eafc868463fb7">math::fibonacci_sum::fiboSum</a>(n,m);</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    assert(<a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#a34b8683a2b429de5cce57e6d733ec817">test_1</a> == 4);</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Passed Test 1!&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    n = 3; m = 5;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#a458410412185a5f09199deaff7157a8d">test_2</a> = math::fiboSum(n,m);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#a458410412185a5f09199deaff7157a8d">test_2</a> = <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#a7cac8fec10aaac6a8c6eafc868463fb7">math::fibonacci_sum::fiboSum</a>(n,m);</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    assert(<a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#a458410412185a5f09199deaff7157a8d">test_2</a> == 10);</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Passed Test 2!&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    n = 5; m = 7;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#af31ec5409537703d9c8a47350386b32a">test_3</a> = math::fiboSum(n,m);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#af31ec5409537703d9c8a47350386b32a">test_3</a> = <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#a7cac8fec10aaac6a8c6eafc868463fb7">math::fibonacci_sum::fiboSum</a>(n,m);</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    assert(<a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#af31ec5409537703d9c8a47350386b32a">test_3</a> == 26);</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Passed Test 3!&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    n = 7; m = 10;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordtype">int</span> test_4 = math::fiboSum(n,m);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordtype">int</span> test_4 = <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#a7cac8fec10aaac6a8c6eafc868463fb7">math::fibonacci_sum::fiboSum</a>(n,m);</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    assert(test_4 == 123);</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Passed Test 4!&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    n = 9; m = 12;</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordtype">int</span> test_5 = math::fiboSum(n,m);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordtype">int</span> test_5 = <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#a7cac8fec10aaac6a8c6eafc868463fb7">math::fibonacci_sum::fiboSum</a>(n,m);</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    assert(test_5 == 322);</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Passed Test 5!&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;} </div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -437,6 +437,7 @@ Here is the call graph for this function:</div>
 <div class="ttc" id="aheavy__light__decomposition_8cpp_html_a34b8683a2b429de5cce57e6d733ec817"><div class="ttname"><a href="../../d2/de9/heavy__light__decomposition_8cpp.html#a34b8683a2b429de5cce57e6d733ec817">test_1</a></div><div class="ttdeci">static void test_1()</div><div class="ttdef"><b>Definition:</b> heavy_light_decomposition.cpp:505</div></div>
 <div class="ttc" id="aendl_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a></div><div class="ttdeci">T endl(T... args)</div></div>
 <div class="ttc" id="afibonacci__sum_8cpp_html_ad723c99804bb4ee0dbd61ae31bdef483"><div class="ttname"><a href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">math::fibonacci_sum::result</a></div><div class="ttdeci">int result(int n)</div><div class="ttdef"><b>Definition:</b> fibonacci_sum.cpp:75</div></div>
+<div class="ttc" id="afibonacci__sum_8cpp_html_a7cac8fec10aaac6a8c6eafc868463fb7"><div class="ttname"><a href="../../de/dc3/fibonacci__sum_8cpp.html#a7cac8fec10aaac6a8c6eafc868463fb7">math::fibonacci_sum::fiboSum</a></div><div class="ttdeci">int fiboSum(int n, int m)</div><div class="ttdef"><b>Definition:</b> fibonacci_sum.cpp:89</div></div>
 <div class="ttc" id="anamespacemachine__learning_html_a7491744dcfc8844338d55065d0cd0c79"><div class="ttname"><a href="../../d8/d77/namespacemachine__learning.html#a7491744dcfc8844338d55065d0cd0c79">machine_learning::multiply</a></div><div class="ttdeci">std::vector&lt; std::valarray&lt; T &gt; &gt; multiply(const std::vector&lt; std::valarray&lt; T &gt;&gt; &amp;A, const std::vector&lt; std::valarray&lt; T &gt;&gt; &amp;B)</div><div class="ttdef"><b>Definition:</b> vector_ops.hpp:460</div></div>
 <div class="ttc" id="afibonacci__sum_8cpp_html_a28ce3a3d9548acbfe92e371666e7456c"><div class="ttname"><a href="../../de/dc3/fibonacci__sum_8cpp.html#a28ce3a3d9548acbfe92e371666e7456c">math::fibonacci_sum::power</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; int &gt; &gt; power(std::vector&lt; std::vector&lt; int &gt; &gt; T, int ex)</div><div class="ttdef"><b>Definition:</b> fibonacci_sum.cpp:55</div></div>
 <!-- start footer part -->
