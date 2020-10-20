@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"d9/dfd/comb__sort_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,16,2,2],
 "d9/dfd/comb__sort_8cpp.html#aede08143e63105faba10e9ee8e745fd5":[10,0,16,2,1],
 "da/d23/eulers__totient__function_8cpp.html":[10,0,10,7],
 "da/d23/eulers__totient__function_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97":[10,0,10,7,0],
@@ -85,8 +86,8 @@ var NAVTREEINDEX4 =
 "da/dd1/structquadratic__probing_1_1_entry.html":[9,0,8,0],
 "da/dd1/structquadratic__probing_1_1_entry.html#a75f72858f08a2fc8b94402de98db12d8":[9,0,8,0,1],
 "da/dd1/structquadratic__probing_1_1_entry.html#a9df1118010a233d13ab3dd699bcb513e":[9,0,8,0,0],
-"da/dd3/namespacespirograph.html":[8,0,37],
-"da/dd4/namespacemedian__search.html":[8,0,21],
+"da/dd3/namespacespirograph.html":[8,0,38],
+"da/dd4/namespacemedian__search.html":[8,0,22],
 "da/de7/decimal__to__hexadecimal_8cpp.html":[10,0,12,2],
 "da/de7/decimal__to__hexadecimal_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe":[10,0,12,2,0],
 "da/df2/durand__kerner__roots_8cpp.html":[10,0,11,2],
@@ -133,7 +134,7 @@ var NAVTREEINDEX4 =
 "db/d66/struct_item.html":[9,0,21],
 "db/d66/struct_item.html#a05e743552459fc8c2abdc80a0f4f0b0a":[9,0,21,1],
 "db/d66/struct_item.html#a62e6c5a24f2618be18e46407857c98de":[9,0,21,0],
-"db/d6f/namespaceheavy__light__decomposition.html":[8,0,10],
+"db/d6f/namespaceheavy__light__decomposition.html":[8,0,11],
 "db/d71/quadratic__probing__hash__table_8cpp.html":[10,0,8,3],
 "db/d71/quadratic__probing__hash__table_8cpp.html#a00ebcc6d39653eccc26f8432efbfc8d9":[10,0,8,3,2],
 "db/d71/quadratic__probing__hash__table_8cpp.html#a07a0467b24102260fbb6b554c453c20a":[10,0,8,3,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "dc/d93/classmachine__learning_1_1neural__network_1_1layers_1_1_dense_layer.html#a6385ad4d8186b8a74b17e4a8dc41da11":[9,0,6,0,0,0,6],
 "dc/d93/classmachine__learning_1_1neural__network_1_1layers_1_1_dense_layer.html#a6c859e3737aa88b29854df0347b29f4e":[9,0,6,0,0,0,4],
 "dc/d93/classmachine__learning_1_1neural__network_1_1layers_1_1_dense_layer.html#a8809e6df990f37c85c06474dd955cb2b":[9,0,6,0,0,0,5],
-"dc/d93/classmachine__learning_1_1neural__network_1_1layers_1_1_dense_layer.html#a891264e2eb1357b2b3282e5532250869":[9,0,6,0,0,0,7],
-"dc/d93/classmachine__learning_1_1neural__network_1_1layers_1_1_dense_layer.html#a8e4c57922478ccc2b7c6277c05608714":[9,0,6,0,0,0,8]
+"dc/d93/classmachine__learning_1_1neural__network_1_1layers_1_1_dense_layer.html#a891264e2eb1357b2b3282e5532250869":[9,0,6,0,0,0,7]
 };

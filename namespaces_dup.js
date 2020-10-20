@@ -8,6 +8,7 @@ var namespaces_dup =
     [ "data_structures", "d5/d3c/namespacedata__structures.html", null ],
     [ "double_hashing", "d0/d65/namespacedouble__hashing.html", null ],
     [ "dynamic_programming", "dd/d24/namespacedynamic__programming.html", null ],
+    [ "fibonacci_sum", "d3/dc9/namespacefibonacci__sum.html", null ],
     [ "geometry", "d5/d5f/namespacegeometry.html", null ],
     [ "graph", "df/dce/namespacegraph.html", null ],
     [ "heavy_light_decomposition", "db/d6f/namespaceheavy__light__decomposition.html", null ],
