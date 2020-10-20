@@ -278,7 +278,7 @@ Here is the call graph for this function:</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d75/qr__eigen__values_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph.svg" width="100%" height="551"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d75/qr__eigen__values_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -377,14 +377,14 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160; </div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 2; i++) {</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; i + 1 &lt;&lt; <span class="stringliteral">&quot;/2 Checking for &quot;</span> &lt;&lt; y[i] &lt;&lt; <span class="stringliteral">&quot; --&gt; &quot;</span>;</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a> = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; 2 &amp;&amp; !<a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a>; j++) {</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="keywordtype">bool</span> result = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; 2 &amp;&amp; !result; j++) {</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;            <span class="keywordflow">if</span> (std::abs(y[i] - eig_vals[j]) &lt; 0.1) {</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                <a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                result = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;(&quot;</span> &lt;&lt; eig_vals[j] &lt;&lt; <span class="stringliteral">&quot;) &quot;</span>;</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            }</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        }</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        assert(<a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a>);  <span class="comment">// ensure that i^th expected eigen value was computed</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        assert(result);  <span class="comment">// ensure that i^th expected eigen value was computed</span></div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;found\n&quot;</span>;</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    }</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 1 Passed\n\n&quot;</span>;</div>
@@ -392,7 +392,7 @@ Here is the call graph for this function:</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d75/qr__eigen__values_8cpp_a1440a7779ac56f47a3f355ce4a8c7da0_cgraph.svg" width="100%" height="464"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d75/qr__eigen__values_8cpp_a1440a7779ac56f47a3f355ce4a8c7da0_cgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -433,14 +433,14 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160; </div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 5; i++) {</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; i + 1 &lt;&lt; <span class="stringliteral">&quot;/5 Checking for &quot;</span> &lt;&lt; y[i] &lt;&lt; <span class="stringliteral">&quot; --&gt; &quot;</span>;</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a> = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; 5 &amp;&amp; !<a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a>; j++) {</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordtype">bool</span> result = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; 5 &amp;&amp; !result; j++) {</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            <span class="keywordflow">if</span> (std::abs(y[i] - eig_vals[j]) &lt; 0.1) {</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                <a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                result = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;(&quot;</span> &lt;&lt; eig_vals[j] &lt;&lt; <span class="stringliteral">&quot;) &quot;</span>;</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            }</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        }</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        assert(<a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a>);  <span class="comment">// ensure that i^th expected eigen value was computed</span></div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        assert(result);  <span class="comment">// ensure that i^th expected eigen value was computed</span></div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;found\n&quot;</span>;</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    }</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 2 Passed\n\n&quot;</span>;</div>
@@ -448,7 +448,7 @@ Here is the call graph for this function:</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d75/qr__eigen__values_8cpp_a0283886819c7c140a023582b7269e2d0_cgraph.svg" width="100%" height="464"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d75/qr__eigen__values_8cpp_a0283886819c7c140a023582b7269e2d0_cgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -467,7 +467,6 @@ Here is the call graph for this function:</div>
 <div class="ttc" id="aperror_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/c/perror.html">std::perror</a></div><div class="ttdeci">T perror(T... args)</div></div>
 <div class="ttc" id="avalarray_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/numeric/valarray.html">std::valarray</a></div><div class="ttdoc">STL class.</div></div>
 <div class="ttc" id="aqr__eigen__values_8cpp_html_a0283886819c7c140a023582b7269e2d0"><div class="ttname"><a href="../../de/d75/qr__eigen__values_8cpp.html#a0283886819c7c140a023582b7269e2d0">test2</a></div><div class="ttdeci">void test2()</div><div class="ttdef"><b>Definition:</b> qr_eigen_values.cpp:210</div></div>
-<div class="ttc" id="anamespacemath_html_a8d79d452a81ed27ba095d2ecb32dc4b4"><div class="ttname"><a href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">math::result</a></div><div class="ttdeci">int result(int n)</div><div class="ttdef"><b>Definition:</b> fibonacci_sum.cpp:70</div></div>
 <div class="ttc" id="arand_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/numeric/random/rand.html">std::rand</a></div><div class="ttdeci">T rand(T... args)</div></div>
 <div class="ttc" id="aqr__eigen__values_8cpp_html_a1440a7779ac56f47a3f355ce4a8c7da0"><div class="ttname"><a href="../../de/d75/qr__eigen__values_8cpp.html#a1440a7779ac56f47a3f355ce4a8c7da0">test1</a></div><div class="ttdeci">void test1()</div><div class="ttdef"><b>Definition:</b> qr_eigen_values.cpp:177</div></div>
 <div class="ttc" id="aendl_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a></div><div class="ttdeci">T endl(T... args)</div></div>

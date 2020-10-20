@@ -164,22 +164,16 @@ template&lt;typename T &gt; </div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">if</span> (b &lt; 0)</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">return</span> 1.0 / <a class="code" href="../../d2/d0b/fast__power_8cpp.html#a0d4e3f0099a6975b74a314a35bd0f94d">fast_power_linear</a>(a, -b);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a> = 1;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">double</span> result = 1;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">while</span> (b) {</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">if</span> (b &amp; 1)</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a> = <a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a> * a;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            result = result * a;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        a = a * a;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        b = b &gt;&gt; 1;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    }</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordflow">return</span> result;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}</div>
-</div><!-- fragment --><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d0b/fast__power_8cpp_a0d4e3f0099a6975b74a314a35bd0f94d_cgraph.svg" width="568" height="114"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8399b847626e5bba983cab7c7918b445"></a>
@@ -221,20 +215,14 @@ template&lt;typename T &gt; </div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="comment">// Since it is integer division b/2 = (b-1)/2 where b is odd.</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="comment">// Therefore, case2 is easily solved by integer division.</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">double</span> result;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span> ((b &amp; 1) == 0)  <span class="comment">// case1</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a> = bottom * bottom;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        result = bottom * bottom;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">else</span>  <span class="comment">// case2</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a> = bottom * bottom * a;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        result = bottom * bottom * a;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">return</span> result;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
-</div><!-- fragment --><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d0b/fast__power_8cpp_a8399b847626e5bba983cab7c7918b445_cgraph.svg" width="591" height="114"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
@@ -282,7 +270,7 @@ Here is the call graph for this function:</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d0b/fast__power_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d0b/fast__power_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.svg" width="256" height="408"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -293,7 +281,6 @@ Here is the call graph for this function:</div>
 <div class="ttc" id="asrand_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/numeric/random/srand.html">std::srand</a></div><div class="ttdeci">T srand(T... args)</div></div>
 <div class="ttc" id="afast__power_8cpp_html_a8399b847626e5bba983cab7c7918b445"><div class="ttname"><a href="../../d2/d0b/fast__power_8cpp.html#a8399b847626e5bba983cab7c7918b445">fast_power_recursive</a></div><div class="ttdeci">double fast_power_recursive(T a, T b)</div><div class="ttdef"><b>Definition:</b> fast_power.cpp:26</div></div>
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
-<div class="ttc" id="anamespacemath_html_a8d79d452a81ed27ba095d2ecb32dc4b4"><div class="ttname"><a href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">math::result</a></div><div class="ttdeci">int result(int n)</div><div class="ttdef"><b>Definition:</b> fibonacci_sum.cpp:70</div></div>
 <div class="ttc" id="arand_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/numeric/random/rand.html">std::rand</a></div><div class="ttdeci">T rand(T... args)</div></div>
 <div class="ttc" id="aendl_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a></div><div class="ttdeci">T endl(T... args)</div></div>
 <div class="ttc" id="async_with_stdio_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/ios_base/sync_with_stdio.html">std::ios_base::sync_with_stdio</a></div><div class="ttdeci">T sync_with_stdio(T... args)</div></div>

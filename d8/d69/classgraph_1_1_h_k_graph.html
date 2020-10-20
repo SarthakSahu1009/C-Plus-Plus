@@ -425,7 +425,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <a class="code" href="../../d8/d69/classgraph_1_1_h_k_graph.html#a6a0228bbba3818447fcf6b56128b552a">dist</a> = <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a>(<a class="code" href="../../d8/d69/classgraph_1_1_h_k_graph.html#a3d9101e3b4598159005fd028b9b0ff74">m</a> + 1);  <span class="comment">// dist[u] stores distance of left side vertices</span></div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a> = 0;  <span class="comment">// Initialize result</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordtype">int</span> result = 0;  <span class="comment">// Initialize result</span></div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="comment">// Keep updating the result while there is an augmenting path possible.</span></div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d8/d69/classgraph_1_1_h_k_graph.html#a7491add14d9fc04f679114ca6d6f0f93">bfs</a>())</div>
@@ -437,16 +437,16 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            <span class="comment">// an augmenting path from current vertex</span></div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            <span class="comment">// then increment the result</span></div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d8/d69/classgraph_1_1_h_k_graph.html#a86ebff8a70cbfedd05281993d5d1987b">pair_u</a>[u] == NIL &amp;&amp; <a class="code" href="../../d8/d69/classgraph_1_1_h_k_graph.html#ae794950cb3407b6b47d3dc986cf714c0">dfs</a>(u)){</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                <a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a>++;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                result++;</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        }</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    }</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a>;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">return</span> result;</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d69/classgraph_1_1_h_k_graph_a9dbda80d02bdc26c3e8ff7330c9be75d_cgraph.svg" width="100%" height="423"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d69/classgraph_1_1_h_k_graph_a9dbda80d02bdc26c3e8ff7330c9be75d_cgraph.svg" width="534" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -463,7 +463,6 @@ Here is the call graph for this function:</div>
 <div class="ttc" id="avector_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a></div><div class="ttdoc">STL class.</div></div>
 <div class="ttc" id="aqueue_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/queue.html">std::queue</a></div><div class="ttdoc">STL class.</div></div>
 <div class="ttc" id="apush_back_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector/push_back.html">std::vector::push_back</a></div><div class="ttdeci">T push_back(T... args)</div></div>
-<div class="ttc" id="anamespacemath_html_a8d79d452a81ed27ba095d2ecb32dc4b4"><div class="ttname"><a href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">math::result</a></div><div class="ttdeci">int result(int n)</div><div class="ttdef"><b>Definition:</b> fibonacci_sum.cpp:70</div></div>
 <div class="ttc" id="aclassgraph_1_1_h_k_graph_html_a7491add14d9fc04f679114ca6d6f0f93"><div class="ttname"><a href="../../d8/d69/classgraph_1_1_h_k_graph.html#a7491add14d9fc04f679114ca6d6f0f93">graph::HKGraph::bfs</a></div><div class="ttdeci">bool bfs()</div><div class="ttdoc">This function checks for the possibility of augmented path availability.</div><div class="ttdef"><b>Definition:</b> hopcroft_karp.cpp:133</div></div>
 <div class="ttc" id="abegin_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin</a></div><div class="ttdeci">T begin(T... args)</div></div>
 <div class="ttc" id="aclassgraph_1_1_h_k_graph_html_a35893def7a1c5cd60907b4893117796f"><div class="ttname"><a href="../../d8/d69/classgraph_1_1_h_k_graph.html#a35893def7a1c5cd60907b4893117796f">graph::HKGraph::adj</a></div><div class="ttdeci">std::vector&lt; std::list&lt; int &gt; &gt; adj</div><div class="ttdoc">adj[u] stores adjacents of left side and 0 is used for dummy vertex</div><div class="ttdef"><b>Definition:</b> hopcroft_karp.cpp:73</div></div>

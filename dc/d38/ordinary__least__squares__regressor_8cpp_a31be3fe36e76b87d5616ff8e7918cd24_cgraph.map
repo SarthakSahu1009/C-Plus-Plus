@@ -1,9 +1,5 @@
 <map id="operator&#45;" name="operator&#45;">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,79,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,79,57"/>
 <area shape="rect" id="node2" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/io/manip/endl.html#" title=" " alt="" coords="149,5,221,32"/>
-<area shape="rect" id="node3" href="$dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4" title=" " alt="" coords="139,56,230,83"/>
-<area shape="rect" id="node7" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/size.html#" title=" " alt="" coords="127,107,243,133"/>
-<area shape="rect" id="node4" href="$d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa" title=" " alt="" coords="317,5,359,32"/>
-<area shape="rect" id="node5" href="$dd/d47/namespacemath.html#a4a55bb9ec6c59485d3fdb18bd88ca5b6" title=" " alt="" coords="291,56,385,83"/>
-<area shape="rect" id="node6" href="$dd/d47/namespacemath.html#ab65d9997885347702dc0c3ec09d5dc21" title=" " alt="" coords="433,81,537,108"/>
+<area shape="rect" id="node3" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/size.html#" title=" " alt="" coords="127,56,243,83"/>
 </map>

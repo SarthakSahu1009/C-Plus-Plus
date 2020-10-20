@@ -185,12 +185,6 @@ var NAVTREEINDEX5 =
 "de/dc3/binaryheap_8cpp.html":[10,0,2,3],
 "de/dc3/binaryheap_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,2,3,1],
 "de/dc3/fibonacci__sum_8cpp.html":[10,0,10,14],
-"de/dc3/fibonacci__sum_8cpp.html#a4a55bb9ec6c59485d3fdb18bd88ca5b6":[10,0,10,14,3],
-"de/dc3/fibonacci__sum_8cpp.html#a54edfd0b9daac1602b16e4c7e251ae2d":[10,0,10,14,0],
-"de/dc3/fibonacci__sum_8cpp.html#a8d79d452a81ed27ba095d2ecb32dc4b4":[10,0,10,14,4],
-"de/dc3/fibonacci__sum_8cpp.html#aa8dca7b867074164d5f45b0f3851269d":[10,0,10,14,5],
-"de/dc3/fibonacci__sum_8cpp.html#ab65d9997885347702dc0c3ec09d5dc21":[10,0,10,14,2],
-"de/dc3/fibonacci__sum_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,10,14,1],
 "de/dcf/binary__exponent_8cpp.html":[10,0,10,1],
 "de/dcf/binary__exponent_8cpp.html#a31dbf5f7ceb9c9eec831ef9f7782291f":[10,0,10,1,1],
 "de/dcf/binary__exponent_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,10,1,2],
@@ -249,5 +243,11 @@ var NAVTREEINDEX5 =
 "df/def/power__for__huge__numbers_8cpp.html":[10,0,10,24],
 "df/def/power__for__huge__numbers_8cpp.html#a392fb874e547e582e9c66a08a1f23326":[10,0,10,24,0],
 "df/def/power__for__huge__numbers_8cpp.html#aa141a7904f0c4668bac112d652a3acf9":[10,0,10,24,2],
-"df/def/power__for__huge__numbers_8cpp.html#ae249a2af508aa94266023ce8aa81426f":[10,0,10,24,3]
+"df/def/power__for__huge__numbers_8cpp.html#ae249a2af508aa94266023ce8aa81426f":[10,0,10,24,3],
+"df/def/power__for__huge__numbers_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,10,24,1],
+"df/dfb/minimax_8cpp.html":[10,0,0,2],
+"df/dfb/minimax_8cpp.html#a78540bcb5ef3473b2348cbc34748ec50":[10,0,0,2,1],
+"df/dfb/minimax_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,0,2,0],
+"dir_074119ce3a874b57120c49a0cc4bb5ad.html":[10,0,14],
+"dir_0eaa691bd54ab0922ca7f50599de6d22.html":[10,0,7]
 };
