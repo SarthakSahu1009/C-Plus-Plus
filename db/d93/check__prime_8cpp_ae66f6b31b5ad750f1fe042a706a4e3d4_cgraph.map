@@ -1,5 +1,9 @@
 <map id="main" name="main">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,56,57"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,56,83"/>
 <area shape="rect" id="node2" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/io/manip/endl.html#" title=" " alt="" coords="104,5,176,32"/>
 <area shape="rect" id="node3" href="$db/d93/check__prime_8cpp.html#aa18b3517017d99bb4024853bddba5532" title=" " alt="" coords="105,56,175,83"/>
+<area shape="rect" id="node4" href="$dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4" title=" " alt="" coords="224,81,315,108"/>
+<area shape="rect" id="node5" href="$d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa" title=" " alt="" coords="389,31,431,57"/>
+<area shape="rect" id="node6" href="$dd/d47/namespacemath.html#a4a55bb9ec6c59485d3fdb18bd88ca5b6" title=" " alt="" coords="363,81,457,108"/>
+<area shape="rect" id="node7" href="$dd/d47/namespacemath.html#ab65d9997885347702dc0c3ec09d5dc21" title=" " alt="" coords="505,107,609,133"/>
 </map>

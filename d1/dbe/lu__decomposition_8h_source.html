@@ -190,11 +190,11 @@ $(document).ready(function(){initNavTree('d1/dbe/lu__decomposition_8h_source.htm
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d1/dbe/lu__decomposition_8h.html#a75b8a228c6419ecda6077255d6d60509">lu_decomposition</a>(A, &amp;L, &amp;U) &lt; 0)</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">double</span> result = 1.f;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a> = 1.f;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; A.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/size.html">size</a>(); i++) {</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        result *= L[i][i] * U[i][i];</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a> *= L[i][i] * U[i][i];</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">result</a>;</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -277,6 +277,8 @@ $(document).ready(function(){initNavTree('d1/dbe/lu__decomposition_8h_source.htm
 <div class="ttc" id="arealtime__stats_8cpp_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="../../d0/d08/realtime__stats_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdef"><b>Definition:</b> realtime_stats.cpp:158</div></div>
 <div class="ttc" id="afalse__position_8cpp_html_a1ab31b90bc584c635ec159468ceed9b2"><div class="ttname"><a href="../../dd/d29/false__position_8cpp.html#a1ab31b90bc584c635ec159468ceed9b2">sgn</a></div><div class="ttdeci">int sgn(T val)</div><div class="ttdef"><b>Definition:</b> false_position.cpp:34</div></div>
 <div class="ttc" id="asieve__of__eratosthenes_8cpp_html_a235843bdf82d2a6cc8596ae8fd3b8df9"><div class="ttname"><a href="../../d8/ddf/sieve__of__eratosthenes_8cpp.html#a235843bdf82d2a6cc8596ae8fd3b8df9">print</a></div><div class="ttdeci">void print(uint32_t N, const std::vector&lt; bool &gt; &amp;is_prime)</div><div class="ttdef"><b>Definition:</b> sieve_of_eratosthenes.cpp:44</div></div>
+<div class="ttc" id="anamespacemath_html_a8d79d452a81ed27ba095d2ecb32dc4b4"><div class="ttname"><a href="../../dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4">math::result</a></div><div class="ttdeci">int result(int n)</div><div class="ttdef"><b>Definition:</b> fibonacci_sum.cpp:70</div></div>
+<div class="ttc" id="anamespacemath_html_a4a55bb9ec6c59485d3fdb18bd88ca5b6"><div class="ttname"><a href="../../dd/d47/namespacemath.html#a4a55bb9ec6c59485d3fdb18bd88ca5b6">math::power</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; int &gt; &gt; power(std::vector&lt; std::vector&lt; int &gt; &gt; T, int ex)</div><div class="ttdef"><b>Definition:</b> fibonacci_sum.cpp:50</div></div>
 <div class="ttc" id="arand_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/numeric/random/rand.html">std::rand</a></div><div class="ttdeci">T rand(T... args)</div></div>
 <div class="ttc" id="aswap_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/algorithm/swap.html">std::swap</a></div><div class="ttdeci">T swap(T... args)</div></div>
 <div class="ttc" id="alu__decomposition_8h_html"><div class="ttname"><a href="../../d1/dbe/lu__decomposition_8h.html">lu_decomposition.h</a></div><div class="ttdoc">Functions associated with LU Decomposition of a square matrix.</div></div>

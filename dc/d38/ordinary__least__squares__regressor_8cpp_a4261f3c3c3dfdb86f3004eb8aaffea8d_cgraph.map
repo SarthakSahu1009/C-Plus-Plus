@@ -1,11 +1,15 @@
 <map id="ols_test" name="ols_test">
-<area shape="rect" id="node1" title=" " alt="" coords="5,157,73,184"/>
-<area shape="rect" id="node2" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/io/manip/endl.html#" title=" " alt="" coords="530,5,602,32"/>
-<area shape="rect" id="node3" href="$dc/d38/ordinary__least__squares__regressor_8cpp.html#a38ff1d954e9b7de93eb20e2dd101a045" title=" " alt="" coords="135,132,262,159"/>
-<area shape="rect" id="node8" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/size.html#" title=" " alt="" coords="343,208,459,235"/>
-<area shape="rect" id="node9" href="$dc/d38/ordinary__least__squares__regressor_8cpp.html#a4bcaaf41c66da4d3a471dacef133def7" title=" " alt="" coords="121,233,276,260"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,183,73,209"/>
+<area shape="rect" id="node2" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/io/manip/endl.html#" title=" " alt="" coords="536,5,608,32"/>
+<area shape="rect" id="node3" href="$dc/d38/ordinary__least__squares__regressor_8cpp.html#a38ff1d954e9b7de93eb20e2dd101a045" title=" " alt="" coords="135,157,262,184"/>
+<area shape="rect" id="node12" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/size.html#" title=" " alt="" coords="343,208,459,235"/>
+<area shape="rect" id="node13" href="$dc/d38/ordinary__least__squares__regressor_8cpp.html#a4bcaaf41c66da4d3a471dacef133def7" title=" " alt="" coords="121,259,276,285"/>
 <area shape="rect" id="node4" href="$dc/d38/ordinary__least__squares__regressor_8cpp.html#a98ab8f75d981088369b89b8be2182483" title=" " alt="" coords="357,56,446,83"/>
 <area shape="rect" id="node6" href="$dc/d38/ordinary__least__squares__regressor_8cpp.html#a889f9de199fa793497c864d8e493af05" title=" " alt="" coords="349,107,453,133"/>
-<area shape="rect" id="node7" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/push_back.html#" title=" " alt="" coords="324,157,479,184"/>
-<area shape="rect" id="node5" href="$dc/d38/ordinary__least__squares__regressor_8cpp.html#a4921874435266592b222e3f2eda0e01f" title=" " alt="" coords="527,56,605,83"/>
+<area shape="rect" id="node11" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/push_back.html#" title=" " alt="" coords="324,157,479,184"/>
+<area shape="rect" id="node5" href="$dc/d38/ordinary__least__squares__regressor_8cpp.html#a4921874435266592b222e3f2eda0e01f" title=" " alt="" coords="533,56,611,83"/>
+<area shape="rect" id="node7" href="$dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4" title=" " alt="" coords="527,183,617,209"/>
+<area shape="rect" id="node8" href="$d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa" title=" " alt="" coords="691,132,734,159"/>
+<area shape="rect" id="node9" href="$dd/d47/namespacemath.html#a4a55bb9ec6c59485d3fdb18bd88ca5b6" title=" " alt="" coords="665,183,760,209"/>
+<area shape="rect" id="node10" href="$dd/d47/namespacemath.html#ab65d9997885347702dc0c3ec09d5dc21" title=" " alt="" coords="808,208,912,235"/>
 </map>

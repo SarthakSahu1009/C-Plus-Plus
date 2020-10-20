@@ -1,6 +1,10 @@
 <map id="graph::HKGraph::hopcroftKarpAlgorithm" name="graph::HKGraph::hopcroftKarpAlgorithm">
-<area shape="rect" id="node1" title="This function counts the number of augmenting paths between left and right sides of the Bipartite gra..." alt="" coords="5,23,176,65"/>
+<area shape="rect" id="node1" title="This function counts the number of augmenting paths between left and right sides of the Bipartite gra..." alt="" coords="5,49,176,90"/>
 <area shape="rect" id="node2" href="$d8/d69/classgraph_1_1_h_k_graph.html#a7491add14d9fc04f679114ca6d6f0f93" title="This function checks for the possibility of augmented path availability." alt="" coords="224,5,367,32"/>
 <area shape="rect" id="node4" href="$d8/d69/classgraph_1_1_h_k_graph.html#ae794950cb3407b6b47d3dc986cf714c0" title="This functions checks whether an augmenting path is available exists beginning with free vertex u." alt="" coords="224,56,367,83"/>
-<area shape="rect" id="node3" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/end.html#" title=" " alt="" coords="415,31,528,57"/>
+<area shape="rect" id="node5" href="$dd/d47/namespacemath.html#a8d79d452a81ed27ba095d2ecb32dc4b4" title=" " alt="" coords="250,107,341,133"/>
+<area shape="rect" id="node3" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/end.html#" title=" " alt="" coords="415,5,528,32"/>
+<area shape="rect" id="node6" href="$d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa" title=" " alt="" coords="450,56,493,83"/>
+<area shape="rect" id="node7" href="$dd/d47/namespacemath.html#a4a55bb9ec6c59485d3fdb18bd88ca5b6" title=" " alt="" coords="424,107,519,133"/>
+<area shape="rect" id="node8" href="$dd/d47/namespacemath.html#ab65d9997885347702dc0c3ec09d5dc21" title=" " alt="" coords="576,132,680,159"/>
 </map>
