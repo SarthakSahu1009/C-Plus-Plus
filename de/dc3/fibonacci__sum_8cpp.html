@@ -137,7 +137,7 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An algorithm to calculate the sum of <a href="https://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci Sequence</a>: \(\mathrm{F}(n) + \mathrm{F}(n+1) + .. + \mathrm{F}(m)\). </p>
-<p>An algorithm to calculate the sum of Fibonacci Sequence: \(\mathrm{F}(n) + \mathrm{F}(n+1) + .. + \mathrm{F}(m)\) where \(\mathrm{F}(i)\) denotes the i-th Fibonacci Number . Note that F(0) = 0 and F(1) = 1. The value of the sum is calculated using matrix exponentiation. @source <a href="https://stackoverflow.com/questions/4357223/finding-the-sum-of-fibonacci-numbers">https://stackoverflow.com/questions/4357223/finding-the-sum-of-fibonacci-numbers</a> </p><dl class="section author"><dt>Author</dt><dd><a href="https://github.com/SarthakSahu1009">Sarthak Sahu</a> </dd></dl>
+<p>An algorithm to calculate the sum of Fibonacci Sequence: \(\mathrm{F}(n) + \mathrm{F}(n+1) + .. + \mathrm{F}(m)\) where \(\mathrm{F}(i)\) denotes the i-th Fibonacci Number . Note that F(0) = 0 and F(1) = 1. The value of the sum is calculated using matrix exponentiation. Reference source: <a href="https://stackoverflow.com/questions/4357223/finding-the-sum-of-fibonacci-numbers">https://stackoverflow.com/questions/4357223/finding-the-sum-of-fibonacci-numbers</a> </p><dl class="section author"><dt>Author</dt><dd><a href="https://github.com/SarthakSahu1009">Sarthak Sahu</a> </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a7cac8fec10aaac6a8c6eafc868463fb7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7cac8fec10aaac6a8c6eafc868463fb7">&#9670;&nbsp;</a></span>fiboSum()</h2>
@@ -250,14 +250,14 @@ Here is the call graph for this function:</div>
 <dl class="section return"><dt>Returns</dt><dd>resultant matrix </dd></dl>
 <div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                                                                                                        {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;int&gt;</a> &gt; <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>(2,<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a>(2));</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;int&gt;</a> &gt; <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>(2,<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a>(2, 0));</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <span class="comment">// multiplying matrices</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0;i&lt;2;i++) {</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j=0;j&lt;2;j++) {</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                    <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>[i][j]=0;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> k=0;k&lt;2;k++) {</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                        <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>[i][j]=(<a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>[i][j]+(T[i][k]*A[k][j]));</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                        <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>[i][j] += T[i][k] * A[k][j];</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                    }</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                }</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            }</div>
