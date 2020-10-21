@@ -257,7 +257,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j=0;j&lt;2;j++) {</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                    <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>[i][j]=0;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> k=0;k&lt;2;k++) {</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                        <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>[i][j] += T[i][k] * A[k][j];</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                        <a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>[i][j]=(<a class="code" href="../../de/dc3/fibonacci__sum_8cpp.html#ad723c99804bb4ee0dbd61ae31bdef483">result</a>[i][j]+(T[i][k]*A[k][j]));</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                    }</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                }</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            }</div>
